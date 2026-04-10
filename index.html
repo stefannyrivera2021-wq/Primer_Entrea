@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazonIA Semillero de Investigación</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav contenedor d-flex align-items-center justify-content-between">
+            <div class="marca-izquierda">
+                <img src="./IMG/Home.png" alt="Logo del semillero AmazonIA" class="logo-principal">
+
+                <div class="marca-texto">
+                    <span class="nombre-marca">AmazonIA</span>
+                    <span class="tipo-marca">Semillero de Investigación</span>
+                </div>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <div class="marca-derecha">
+                <img src="./IMG/Logouniamazonia.png" alt="Logo Universidad de la Amazonia" class="logo-universidad">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="home">
+            <article class="banner-principal">
+                <div class="overlay"></div>
+
+                <div class="imagen-home">
+                    <img src="./IMG/Home.png" alt="Logo de agua AmazonIA">
+                </div>
+
+                <div class="contenedor contenido-home">
+                    <div class="texto-home animate__animated animate__fadeInLeft">
+                        <p class="institucion">Universidad de la Amazonia</p>
+                        <h1>AmazonIA</h1>
+                        <h2>Semillero de Investigación</h2>
+                        <p class="lema">Innovación, investigación y tecnología para transformar el territorio</p>
+                        <p class="resumen">
+                            AmazonIA es un semillero de investigación orientado al fortalecimiento de competencias
+                            científicas, tecnológicas y creativas en los estudiantes, promoviendo el desarrollo
+                            de proyectos, la participación en eventos académicos y la generación de productos
+                            investigativos con impacto institucional, regional y social.
+                        </p>
+                        <a href="#sobre"
+                            class="boton-principal animate__animated animate__flash animate__delay-2s animate__repeat-2">
+                            Conócenos
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="sobre" class="seccion">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Sobre el semillero</h2>
+                    <p>Conoce nuestra identidad, propósito y líneas de trabajo.</p>
+                </div>
+
+                <div class="sobre-contenido">
+                    <article class="sobre-imagen" data-aos="fade-right">
+                        <img src="./IMG/GrupoSemillero.png" alt="Grupo del semillero">
+                    </article>
+
+                    <article class="sobre-texto" data-aos="fade-left">
+                        <div class="tarjeta">
+                            <h3>Reseña histórica</h3>
+                            <p>
+                                AmazonIA surge en el año 2022, como una iniciativa académica enfocada en fomentar la
+                                participación
+                                estudiantil de la Universidad de la Amazonia en procesos de investigación, fortaleciendo
+                                el pensamiento crítico,
+                                la creatividad y la innovación tecnológica en la región amazónica.
+                            </p>
+                        </div>
+
+                        <div class="mini-grid">
+                            <article class="tarjeta" data-aos="zoom-in">
+                                <h3>Misión</h3>
+                                <p>Promover la investigación formativa, la innovación y el trabajo colaborativo en los
+                                    estudiantes.</p>
+                            </article>
+
+                            <article class="tarjeta" data-aos="zoom-in" data-aos-delay="100">
+                                <h3>Visión</h3>
+                                <p>Ser un semillero reconocido por su liderazgo, proyección investigativa y aporte
+                                    académico.</p>
+                            </article>
+
+                            <article class="tarjeta" data-aos="zoom-in" data-aos-delay="200">
+                                <h3>Objetivos</h3>
+                                <p>Desarrollar competencias investigativas, generar proyectos y divulgar resultados
+                                    académicos.</p>
+                            </article>
+
+                            <article class="tarjeta" data-aos="zoom-in" data-aos-delay="300">
+                                <h3>Líneas de investigación</h3>
+                                <p>Desarrollo web, analítica de datos, inteligencia artificial e innovación tecnológica.
+                                </p>
+                            </article>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="seccion fondo-suave">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Eventos</h2>
+                    <p>Actividades académicas desarrolladas y programadas por el semillero.</p>
+                </div>
+
+                <div class="grid-3">
+                    <article class="tarjeta" data-aos="zoom-in">
+                        <h3>Jornada de Innovación</h3>
+                        <p><strong>Fecha:</strong> 15 de abril de 2026</p>
+                        <p><strong>Lugar:</strong> Auditorio principal</p>
+                        <p>Espacio para presentar ideas de proyectos y avances investigativos.</p>
+                    </article>
+
+                    <article class="tarjeta" data-aos="zoom-in" data-aos-delay="150">
+                        <h3>Taller de Desarrollo Web</h3>
+                        <p><strong>Fecha:</strong> 20 de abril de 2026</p>
+                        <p><strong>Lugar:</strong> Sala de sistemas</p>
+                        <p>Capacitación en estructura web, estilos y diseño responsivo.</p>
+                    </article>
+
+                    <article class="tarjeta" data-aos="zoom-in" data-aos-delay="300">
+                        <h3>Encuentro de Semilleros</h3>
+                        <p><strong>Fecha:</strong> 30 de abril de 2026</p>
+                        <p><strong>Lugar:</strong> Campus universitario</p>
+                        <p>Intercambio de experiencias con otros grupos de investigación.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipos" class="seccion">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Equipos de trabajo</h2>
+                    <p>Conoce los grupos que conforman el semillero y algunos de sus integrantes.</p>
+                </div>
+
+                <div class="grid-3">
+                    <article class="tarjeta" data-aos="fade-up">
+                        <h3>Desarrollo Web</h3>
+                        <p>Equipo enfocado en el diseño y construcción de sitios y soluciones web interactivas.</p>
+
+                        <div class="integrantes">
+                            <div class="integrante">
+                                <img src="./IMG/Laura.png" alt="Laura Pérez">
+                                <div>
+                                    <h4>Laura Pérez</h4>
+                                    <span>Líder de equipo</span>
+                                </div>
+                            </div>
+
+                            <div class="integrante">
+                                <img src="./IMG/Carlos.png" alt="Carlos Gómez">
+                                <div>
+                                    <h4>Carlos Gómez</h4>
+                                    <span>Desarrollador</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta" data-aos="fade-up" data-aos-delay="150">
+                        <h3>Analítica de Datos</h3>
+                        <p>Grupo encargado del análisis, interpretación y visualización de información.</p>
+
+                        <div class="integrantes">
+                            <div class="integrante">
+                                <img src="./IMG/Sofia.png" alt="Sofía Ramírez">
+                                <div>
+                                    <h4>Sofía Ramírez</h4>
+                                    <span>Analista</span>
+                                </div>
+                            </div>
+
+                            <div class="integrante">
+                                <img src="./IMG/Juan.png" alt="Juan Torres">
+                                <div>
+                                    <h4>Juan Torres</h4>
+                                    <span>Apoyo técnico</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Inteligencia Artificial</h3>
+                        <p>Área dedicada a propuestas innovadoras basadas en automatización y aprendizaje automático.
+                        </p>
+
+                        <div class="integrantes">
+                            <div class="integrante">
+                                <img src="./IMG/Valentina.png" alt="Valentina Mora">
+                                <div>
+                                    <h4>Valentina Mora</h4>
+                                    <span>Investigadora</span>
+                                </div>
+                            </div>
+
+                            <div class="integrante">
+                                <img src="./IMG/Andres.png" alt="Andrés Silva">
+                                <div>
+                                    <h4>Andrés Silva</h4>
+                                    <span>Colaborador</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="resultados" class="seccion fondo-suave">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Resultados de investigación</h2>
+                    <p>Proyectos desarrollados y logros obtenidos dentro del semillero.</p>
+                </div>
+
+                <div class="grid-2">
+                    <article class="tarjeta" data-aos="fade-right">
+                        <h3>Proyecto de plataforma académica</h3>
+                        <p>Diseño de una propuesta digital para fortalecer la visibilidad de los procesos investigativos
+                            estudiantiles.</p>
+                    </article>
+
+                    <article class="tarjeta" data-aos="fade-left">
+                        <h3>Participación en eventos académicos</h3>
+                        <p>Presentación de ponencias y socialización de avances en jornadas institucionales.</p>
+                    </article>
+
+                    <article class="tarjeta" data-aos="fade-right">
+                        <h3>Producción de contenidos investigativos</h3>
+                        <p>Elaboración de informes, propuestas y materiales académicos de apoyo al semillero.</p>
+                    </article>
+
+                    <article class="tarjeta" data-aos="fade-left">
+                        <h3>Fortalecimiento de competencias</h3>
+                        <p>Desarrollo de habilidades en investigación, tecnología, análisis y trabajo colaborativo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="seccion">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Productos académicos</h2>
+                    <p>Libros, artículos, informes o ponencias desarrolladas por el semillero.</p>
+                </div>
+
+                <div class="grid-3">
+                    <article class="tarjeta" data-aos="zoom-in">
+                        <h3>Artículo sobre innovación educativa</h3>
+                        <p><strong>Autor(es):</strong> Integrantes de AmazonIA</p>
+                        <p><strong>Año:</strong> 2025</p>
+                        <a href="#" class="boton-secundario">Ver más</a>
+                    </article>
+
+                    <article class="tarjeta" data-aos="zoom-in" data-aos-delay="150">
+                        <h3>Informe técnico de desarrollo web</h3>
+                        <p><strong>Autor(es):</strong> Equipo Desarrollo Web</p>
+                        <p><strong>Año:</strong> 2026</p>
+                        <a href="#" class="boton-secundario">Descargar</a>
+                    </article>
+
+                    <article class="tarjeta" data-aos="zoom-in" data-aos-delay="300">
+                        <h3>Ponencia en encuentro regional</h3>
+                        <p><strong>Autor(es):</strong> Semillero AmazonIA</p>
+                        <p><strong>Año:</strong> 2026</p>
+                        <a href="#" class="boton-secundario">Consultar</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="seccion fondo-suave">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Galería de imágenes</h2>
+                    <p>Álbum fotográfico del semillero con todas las imágenes disponibles.</p>
+                </div>
+
+                <div class="galeria-grid">
+                    <article class="imagen-galeria" data-aos="zoom-in">
+                        <a href="./IMG/Home.png" data-lightbox="galeria" data-title="Logo principal AmazonIA">
+                            <img src="./IMG/Home.png" alt="Logo principal AmazonIA">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="50">
+                        <a href="./IMG/Logouniamazonia.png" data-lightbox="galeria"
+                            data-title="Logo Universidad de la Amazonia">
+                            <img src="./IMG/Logouniamazonia.png" alt="Logo Universidad de la Amazonia">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="./IMG/EstudiantesAI.png" data-lightbox="galeria"
+                            data-title="Estudiantes del semillero">
+                            <img src="./IMG/EstudiantesAI.png" alt="Estudiantes del semillero">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="150">
+                        <a href="./IMG/GrupoSemillero.png" data-lightbox="galeria" data-title="Grupo del semillero">
+                            <img src="./IMG/GrupoSemillero.png" alt="Grupo del semillero">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="200">
+                        <a href="./IMG/Laura.png" data-lightbox="galeria" data-title="Laura Pérez">
+                            <img src="./IMG/Laura.png" alt="Laura Pérez">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="250">
+                        <a href="./IMG/Carlos.png" data-lightbox="galeria" data-title="Carlos Gómez">
+                            <img src="./IMG/Carlos.png" alt="Carlos Gómez">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="300">
+                        <a href="./IMG/Sofia.png" data-lightbox="galeria" data-title="Sofía Ramírez">
+                            <img src="./IMG/Sofia.png" alt="Sofía Ramírez">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="350">
+                        <a href="./IMG/Juan.png" data-lightbox="galeria" data-title="Juan Torres">
+                            <img src="./IMG/Juan.png" alt="Juan Torres">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="400">
+                        <a href="./IMG/Valentina.png" data-lightbox="galeria" data-title="Valentina Mora">
+                            <img src="./IMG/Valentina.png" alt="Valentina Mora">
+                        </a>
+                    </article>
+
+                    <article class="imagen-galeria" data-aos="zoom-in" data-aos-delay="450">
+                        <a href="./IMG/Andres.png" data-lightbox="galeria" data-title="Andrés Silva">
+                            <img src="./IMG/Andres.png" alt="Andrés Silva">
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion">
+            <div class="contenedor">
+                <div class="encabezado-seccion" data-aos="fade-up">
+                    <h2>Contacto</h2>
+                    <p>Comunícate con el semillero para más información.</p>
+                </div>
+
+                <div class="contacto-contenido">
+                    <article class="tarjeta formulario" data-aos="fade-right">
+                        <h3>Formulario de contacto</h3>
+                        <form id="formularioContacto">
+                            <input type="text" id="nombre" placeholder="Nombre completo">
+                            <input type="email" id="correo" placeholder="Correo electrónico">
+                            <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                            <button type="submit" class="boton-principal">Enviar mensaje</button>
+                            <p id="respuestaFormulario" class="respuesta-formulario"></p>
+                        </form>
+                    </article>
+
+                    <article class="tarjeta info-contacto" data-aos="fade-left">
+                        <h3>Información del semillero</h3>
+                        <p><i class="fa-solid fa-envelope"></i> <strong>Correo:</strong>
+                            semilleroamazonia@uniamazonia.edu.co</p>
+                        <p><i class="fa-solid fa-location-dot"></i> <strong>Ubicación:</strong> Universidad de la
+                            Amazonia</p>
+                        <p><i class="fa-solid fa-city"></i> <strong>Ciudad:</strong> Florencia, Caquetá</p>
+                        <p><i class="fa-solid fa-share-nodes"></i> <strong>Redes sociales:</strong> Facebook | Instagram
+                            | LinkedIn</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p>© 2026 AmazonIA Semillero de Investigación - Universidad de la Amazonia</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scrip.js"></script>
+</body>
+
+</html>
