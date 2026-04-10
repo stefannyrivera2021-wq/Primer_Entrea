@@ -180,7 +180,6 @@ main {
     cursor: pointer;
 }
 
-/* HOME */
 .home {
     min-height: auto;
 }
@@ -280,7 +279,7 @@ main {
     color: rgba(255, 255, 255, 0.94);
 }
 
-/* BOTONES */
+
 .boton-principal,
 .boton-secundario {
     display: inline-block;
@@ -310,12 +309,11 @@ main {
     padding: 11px 22px;
 }
 
-/* ANIMACIÓN DESTELLO */
 .animate__flash {
     --animate-duration: 2s;
 }
 
-/* SECCIONES */
+
 .seccion {
     padding: 80px 0;
 }
@@ -381,7 +379,7 @@ main {
     gap: 24px;
 }
 
-/* SOBRE */
+
 .sobre-contenido {
     display: grid;
     grid-template-columns: 1fr 1.1fr;
@@ -408,7 +406,6 @@ main {
     gap: 20px;
 }
 
-/* EQUIPOS */
 .integrantes {
     margin-top: 18px;
     display: grid;
@@ -443,7 +440,6 @@ main {
     color: #6d7b76;
 }
 
-/* GALERÍA */
 .galeria-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -469,7 +465,6 @@ main {
     transform: scale(1.08);
 }
 
-/* CONTACTO */
 .contacto-contenido {
     display: grid;
     grid-template-columns: 1.3fr 1fr;
@@ -515,7 +510,6 @@ main {
     margin-right: 8px;
 }
 
-/* FOOTER */
 .footer {
     background: linear-gradient(135deg, var(--oscuro), #1d4a40);
     color: var(--blanco);
@@ -523,9 +517,7 @@ main {
     padding: 24px 0;
 }
 
-/* =========================
-   ADAPTACIÓN 1: ESCRITORIO
-   ========================= */
+
 @media (min-width: 996px) {
     body {
         display: grid;
